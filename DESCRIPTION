@@ -1,0 +1,14 @@
+Package: visualizationPackage
+Title: Package to create histograms and barplots for multiple variables in df.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Frank", "Ioppolo", , "frankioppolo@usf.edu", role = c("aut", "cre"))
+Description: Package creates histograms and barplots for multiple variables in df.
+License: MIT
+Imports:
+    ggplot2,
+    gridExtra
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://github.com/Eon381/visualizationPackage
