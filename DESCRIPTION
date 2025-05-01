@@ -1,5 +1,5 @@
 Package: visualizationPackage
-Title: Package to create histograms and barplots for multiple variables in df.
+Title: Package to create histograms and barplots for multiple variables in df
 Version: 0.0.0.9000
 Authors@R: 
     person("Frank", "Ioppolo", , "frankioppolo@usf.edu", role = c("aut", "cre"))
