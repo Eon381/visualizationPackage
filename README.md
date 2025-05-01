@@ -12,10 +12,12 @@ Example Usage:
 
 library(visualizationPackage)
 
-# Grid of Histograms containing frequency of "mpg", "hp", and "wt" values.
+# Functions and Examples
+
+The function visualize_numerical creates a grid of histograms for up to 9 numerical variables in a provided data frame. For input, the function asks for a data frame, and a character vector that contains column names. It also checks that all variables exist and if they are factor or character before plotting.
 
 visualize_numerical(mtcars, c("mpg", "hp", "wt"))
 
-#Grid of Barplots 
+The function visualize_categorical creates a grid of barplots for up to 9 categorical variables in a provided data frame. This function takes the same input as its sibling which is a data frame, and a character vector containing column names.
 
 visualize_categorical(as.data.frame(Titanic), c("Class", "Sex", "Age"))
